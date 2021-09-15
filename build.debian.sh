@@ -13,8 +13,8 @@ using gcc : mingw64 : x86_64-w64-mingw32-g++
 ;
 EOF
 
-mkdir -p $SCRIPT_DIR/mingw-w64-boost
+mkdir -p $SCRIPT_DIR/libboost-mingw-w64
 cd $BOOST_ROOT
 ./bootstrap.sh
-./b2 --user-config=./user-config.jam --prefix=$SCRIPT_DIR/mingw-w64-boost target-os=windows address-model=64 variant=release install
+./b2 --user-config=./user-config.jam --prefix=$SCRIPT_DIR/libboost-mingw-w64 target-os=windows address-model=64 variant=release install
 
