@@ -22,7 +22,7 @@ Cross-compiled boost with mingw-w64 for Linux.
 libboost-*.a files and headers are located in `libboost-mingw-w64` directories in source root.
 
 #### Install libraries into root system (for Debian/Ubuntu)
-    sudo cp -R <PATH_TO_SOURCE>/libboost-mingw-w64/lib /usr/x86_64-w64-mingw32/lib
+    sudo cp -R <PATH_TO_SOURCE>/libboost-mingw-w64/lib/* /usr/x86_64-w64-mingw32/lib
     sudo cp -R <PATH_TO_SOURCE>/libboost-mingw-w64/include/boost /usr/x86_64-w64-mingw32/include
 Make sure `<PATH_TO_SOURCE>` must be modified to your environment.
 
